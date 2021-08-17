@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.TheatreTest" tests="11" skipped="0" failures="0" errors="0" timestamp="2021-08-17T20:02:59" hostname="Ekanshs-MacBook-Pro.local" time="0.073">
+  <properties/>
+  <testcase name="should return 1 as the seat number and correct updated show details for 1 ticket booked for a Show Today" classname="com.example.TheatreTest" time="0.032"/>
+  <testcase name="should return a correct ticket for nth ticket booked for a Show Today" classname="com.example.TheatreTest" time="0.001"/>
+  <testcase name="should return an exception when creating a show 8 days from now" classname="com.example.TheatreTest" time="0.001"/>
+  <testcase name="should return an exception if the seat number exceeds 100 tickets (quantity of tickets greater than remaining seats)" classname="com.example.TheatreTest" time="0.001"/>
+  <testcase name="should return the correct show when a show is searched for" classname="com.example.TheatreTest" time="0.005"/>
+  <testcase name="should return an exception when a show is searched for that do not exist" classname="com.example.TheatreTest" time="0.001"/>
+  <testcase name="should return the correct set of shows when we searched shows for a certain movie" classname="com.example.TheatreTest" time="0.003"/>
+  <testcase name="should return list of Tickets for multiple tickets booked" classname="com.example.TheatreTest" time="0.002"/>
+  <testcase name="should return updated show list when updating a movie" classname="com.example.TheatreTest" time="0.002"/>
+  <testcase name="should return an exception when updating a movie on a show that do not exist" classname="com.example.TheatreTest" time="0.001"/>
+  <testcase name="should return an empty set of shows when we searched shows for a certain movie for which no seats are left" classname="com.example.TheatreTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
